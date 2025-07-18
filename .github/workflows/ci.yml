@@ -4,10 +4,10 @@ on:
   pull_request:
     branches: [main]
 
-jobs: 
+jobs:
   tests:
     name: Tests
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Check out code
